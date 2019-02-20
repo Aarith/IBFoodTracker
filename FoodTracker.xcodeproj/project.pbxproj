@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203E7F79221D99A800D7E274 /* defaultphoto_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultphoto_2x.png; path = /Users/iab15a/Desktop/FoodTracker/FoodTracker/defaultphoto_2x.png; sourceTree = "<absolute>"; };
 		20987F4B2217007400ECAE64 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20987F4E2217007400ECAE64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20987F502217007400ECAE64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		20987F4D2217007400ECAE64 /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				203E7F79221D99A800D7E274 /* defaultphoto_2x.png */,
 				20987F4E2217007400ECAE64 /* AppDelegate.swift */,
 				20987F502217007400ECAE64 /* ViewController.swift */,
 				20987F522217007400ECAE64 /* Main.storyboard */,
