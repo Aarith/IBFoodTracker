@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var MealName: UITextField!
     @IBOutlet weak var MealNameLabel: UILabel!
     @IBOutlet weak var PhotoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +31,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         return true
     }
     func textFieldDidEndEditing(_ textField: UITextField){
-        MealName.text = textField.text
+        MealNameLabel.text = textField.text
     }
     
     
@@ -69,9 +70,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         // Make sure ViewController is notified when the user picks an image
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
-    }
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        MealNameLabel.text = "Default Text"
     }
     
 }
